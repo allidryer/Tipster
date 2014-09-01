@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
         
-        UISegmentedControl.appearance().setTitleTextAttributes(NSDictionary(objects: [UIFont(name: "Gotham Rounded", size: 16.0)], forKeys: [NSFontAttributeName]), forState: UIControlState.Normal)
+        UISegmentedControl.appearance().setTitleTextAttributes(NSDictionary(objects: [UIFont(name: "Gotham Rounded", size: 18.0)], forKeys: [NSFontAttributeName]), forState: UIControlState.Normal)
         
     }
 
