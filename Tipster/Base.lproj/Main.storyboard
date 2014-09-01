@@ -77,13 +77,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                     <segment title="20%">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                     <segment title="22%">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                 </segments>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -115,16 +115,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="1">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                     <segment title="2">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                     <segment title="3">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                     <segment title="4">
-                                        <size key="contentOffset" width="0.0" height="2"/>
+                                        <size key="contentOffset" width="0.0" height="1"/>
                                     </segment>
                                 </segments>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
