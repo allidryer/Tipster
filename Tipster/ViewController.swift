@@ -17,7 +17,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
-    
+
+    @IBOutlet weak var splitControl: UISegmentedControl!
+
     @IBOutlet weak var unhappy: UIImageView!
     
     @IBOutlet weak var happy: UIImageView!
@@ -87,7 +89,9 @@ class ViewController: UIViewController {
     @IBAction func onEditingChanged(sender: AnyObject) {
         
         var tipPercentages = [0.18, 0.2, 0.22]
+        var peopleNumbers = [1.0, 2.0, 3.0, 4.0]
         var tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
+        var peopleNumber = peopleNumbers[splitControl.selectedSegmentIndex]
         
         let duration = 0.13
         let delay = 0.0
@@ -145,7 +149,7 @@ class ViewController: UIViewController {
         }
         
         var billAmount = billField.text._bridgeToObjectiveC().doubleValue
-        var people = peopleField.text._bridgeToObjectiveC().doubleValue
+        var people = peopleNumber
         var tip = billAmount * tipPercentage
         var quickTotal = billAmount + tip
         var total = quickTotal / people
