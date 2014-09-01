@@ -25,6 +25,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var love: UIImageView!
     
     @IBOutlet weak var logo: UIImageView!
+
+    @IBOutlet weak var peopleField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -143,8 +145,10 @@ class ViewController: UIViewController {
         }
         
         var billAmount = billField.text._bridgeToObjectiveC().doubleValue
+        var people = peopleField.text._bridgeToObjectiveC().doubleValue
         var tip = billAmount * tipPercentage
-        var total = billAmount + tip
+        var quickTotal = billAmount + tip
+        var total = quickTotal / people
         
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"
