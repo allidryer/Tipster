@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var logo: UIImageView!
 
-    @IBOutlet weak var peopleField: UITextField!
+    var currentTipControlSelectedSegmentIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,6 +98,8 @@ class ViewController: UIViewController {
         let options = UIViewAnimationOptions.CurveEaseInOut
         let damping = 0.5
         let velocity = 1.0
+
+        if currentTipControlSelectedSegmentIndex != tipControl.selectedSegmentIndex {
         
         if tipControl.selectedSegmentIndex == 0 {
             
@@ -147,6 +149,9 @@ class ViewController: UIViewController {
         else {
             self.love.alpha = 0
         }
+
+    currentTipControlSelectedSegmentIndex = tipControl.selectedSegmentIndex
+    }
         
         var billAmount = billField.text._bridgeToObjectiveC().doubleValue
         var people = peopleNumber
