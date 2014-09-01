@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1DAB8119B5307300E83B99 /* GothamRnd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DAB7F19B5307300E83B99 /* GothamRnd-Book.otf */; };
+		4A1DAB8219B5307300E83B99 /* GothamRnd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DAB8019B5307300E83B99 /* GothamRnd-Light.otf */; };
 		4A2E4BFD19AB8FFB005892FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E4BFC19AB8FFB005892FC /* AppDelegate.swift */; };
 		4A2E4BFF19AB8FFB005892FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E4BFE19AB8FFB005892FC /* ViewController.swift */; };
 		4A2E4C0219AB8FFB005892FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E4C0019AB8FFB005892FC /* Main.storyboard */; };
 		4A2E4C0419AB8FFB005892FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E4C0319AB8FFB005892FC /* Images.xcassets */; };
 		4A2E4C1019AB8FFB005892FC /* TipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E4C0F19AB8FFB005892FC /* TipsterTests.swift */; };
-		4A2E4C1B19AC4979005892FC /* GothamRnd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E4C1919AC4979005892FC /* GothamRnd-Book.otf */; };
-		4A2E4C1C19AC4979005892FC /* GothamRnd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2E4C1A19AC4979005892FC /* GothamRnd-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A1DAB7F19B5307300E83B99 /* GothamRnd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Book.otf"; sourceTree = "<group>"; };
+		4A1DAB8019B5307300E83B99 /* GothamRnd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Light.otf"; sourceTree = "<group>"; };
 		4A2E4BF719AB8FFB005892FC /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2E4BFB19AB8FFB005892FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2E4BFC19AB8FFB005892FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +38,6 @@
 		4A2E4C0919AB8FFB005892FC /* TipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2E4C0E19AB8FFB005892FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2E4C0F19AB8FFB005892FC /* TipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterTests.swift; sourceTree = "<group>"; };
-		4A2E4C1919AC4979005892FC /* GothamRnd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRnd-Book.otf"; path = "../../Downloads/Archive/GothamRnd-Book.otf"; sourceTree = "<group>"; };
-		4A2E4C1A19AC4979005892FC /* GothamRnd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GothamRnd-Light.otf"; path = "../../Downloads/Archive/GothamRnd-Light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +117,8 @@
 		4A2E4C1D19AC49BF005892FC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4A2E4C1919AC4979005892FC /* GothamRnd-Book.otf */,
-				4A2E4C1A19AC4979005892FC /* GothamRnd-Light.otf */,
+				4A1DAB7F19B5307300E83B99 /* GothamRnd-Book.otf */,
+				4A1DAB8019B5307300E83B99 /* GothamRnd-Light.otf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -204,10 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2E4C1B19AC4979005892FC /* GothamRnd-Book.otf in Resources */,
+				4A1DAB8119B5307300E83B99 /* GothamRnd-Book.otf in Resources */,
 				4A2E4C0219AB8FFB005892FC /* Main.storyboard in Resources */,
 				4A2E4C0419AB8FFB005892FC /* Images.xcassets in Resources */,
-				4A2E4C1C19AC4979005892FC /* GothamRnd-Light.otf in Resources */,
+				4A1DAB8219B5307300E83B99 /* GothamRnd-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +420,7 @@
 				4A2E4C1519AB8FFB005892FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A2E4C1619AB8FFB005892FC /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				4A2E4C1819AB8FFB005892FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
