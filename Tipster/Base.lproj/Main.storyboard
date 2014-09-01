@@ -78,13 +78,19 @@
                                     <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="editingChanged" id="vFf-It-8kl"/>
                                 </connections>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Rmj-By-MHT">
+                            <segmentedControl opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="bar" selectedSegmentIndex="0" id="Rmj-By-MHT">
                                 <rect key="frame" x="28" y="158" width="264" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="18%"/>
-                                    <segment title="20%"/>
-                                    <segment title="22%"/>
+                                    <segment title="18%">
+                                        <size key="contentOffset" width="0.0" height="2"/>
+                                    </segment>
+                                    <segment title="20%">
+                                        <size key="contentOffset" width="0.0" height="2"/>
+                                    </segment>
+                                    <segment title="22%">
+                                        <size key="contentOffset" width="0.0" height="2"/>
+                                    </segment>
                                 </segments>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <connections>
